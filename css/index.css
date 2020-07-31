@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: gray; 
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ddd; 
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
+/*Chrome*/
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+
+    input[type='range'] {
+      overflow: hidden;
+      width: 250px;
+      -webkit-appearance: none;
+      background-color: #F7F7F7;
+      border: 0.5px solid lightgray;
+    }
+    
+    input[type='range']::-webkit-slider-runnable-track {
+      height: 14px;
+      -webkit-appearance: none;
+      color: #13bba4;
+      margin-top: -1px;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      width: 15px;
+      -webkit-appearance: none;
+      height: 15px;
+      cursor: ew-resize;
+      background: #686262;
+      box-shadow: -250px 0 0 250px #488A21;
+    }
+}
+/** FF*/
+input[type="range"]::-moz-range-progress {
+  background-color: #43e5f7; 
+}
+input[type="range"]::-moz-range-track {  
+  background-color: #9a905d;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+  background-color: #43e5f7; 
+}
+input[type="range"]::-ms-fill-upper {  
+  background-color: #9a905d;
+}
+
+@media screen and (max-width:468px){
+		
+	input[type='range'] {
+      width: 220px;
+    }
+      input[type='range']::-webkit-slider-thumb {
+      box-shadow: -220px 0 0 220px  #488A21;
+    }
+    
+}
+
+   .left-con .text1{
+font-size: 20px;
+font-family: sans-serif;
+font-weight: bold;
+color: black;
+margin-top: 10px;
+
+    }
+
+.left-con .text1{
+font-size: 16px;
+font-family: sans-serif;
+color: black;
+text-align: justify;
+margin-top: 10px;
+    }
+
+    .input_span {
+        font-size: 15px;
+font-family: sans-serif;
+/*font-weight: bold;*/
+color: black;
+margin-top: 2px;
+
+    }
+
+
+    input{
+    width: 100%;
+    outline: none !important;
+
+    box-shadow: none !important;
+    }
+
+    .submited_form{
+        display: none;
+    }
+    .num{
+        font-size: 23px;
+font-family: sans-serif;
+color: black;
+text-align: justify;
+    }
+    .rupee{
+        margin-top: -5px;
+                font-size: 15px;
+font-family: sans-serif;
+color: black;
+text-align: justify;
+    }
+
+    .operator{
+                        font-size: 20px;
+font-family: sans-serif;
+color: #1f4a4d;
+text-align: justify;
+    }
+#No_of_year_show,#Expected_Rate_show,#Monthly_SIP_show{
+    text-align: center;
+ font-size: 13px;
+ height: 30px !important;
+ font-weight: bold;
+font-family: sans-serif;
+color: black;
+}
+
+button{
+    height: 30px;
+    padding: 0 !important;
+    bottom: none !important;
+}
+
+@media (max-width:768px){
+  #No_of_year_show, #Expected_Rate_show, #Monthly_SIP_show{
+    padding-top: 0;
+    margin-top: -15px;
+    width: 60%;
+    margin-left: 22%;
+    }
+
+}
